@@ -1,0 +1,334 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    background-size: 100% 20cm;
+}
+/* First Page Starts Here */
+.FirstPage
+{
+    width: 100;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url(ImageUsed/Img1.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation-name: Ab1;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        box-shadow: 0 0 10px 5px red;
+}
+@keyframes Ab1 {
+    50% {
+        background-image: url(ImageUsed/Img2.jpeg);
+    }
+
+    100% {
+        background-image: url(ImageUsed/Img3.jpeg);
+    }
+}
+#Logo {
+    border: solid 1px white;
+    border-radius: 100px;
+    box-shadow: 0 0 10px 5px green;
+}
+
+.NavBar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: solid red 4px; */
+    width: 100%;
+    margin-left: 100px;
+    justify-content: space-evenly;
+
+}
+
+.L1 {
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.L1:hover {
+    color: grey;
+}
+.Intro {
+    height: 535px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.MyIntro {
+    margin-left: 20px;
+    color: white;
+}
+
+#Name {
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+#Occ {
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-style: oblique;
+    margin-left: 70px;
+    margin-top: -32px;
+}
+
+#Btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 130px;
+}
+
+.L2 {
+    margin-left: 20px;
+    padding: 4px;
+    color: white;
+    border: solid white 2px;
+    justify-content: space-between;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.L2:hover {
+    color: white;
+    background-color: black;
+    transform: scale(2);
+    transition-duration: 1s;
+}
+/* First Page Ends Here */
+
+/* Second Page Starts here */
+.Skills {
+    background-image: url(ImageUsed/NewBg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150cm;
+    background-color: red;
+    box-shadow: 0 0 10px 5px  rgb(20, 3, 3);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px 5px red;
+    
+}
+  
+#S4 {
+    /* margin-top: 40px; */
+    height: 200px;
+}
+#S3
+{
+    width: 250px;
+}
+h1
+{
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     word-spacing: 5px;
+    letter-spacing: 20px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+.hidden
+{
+    margin-left: 20px;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transform: scale(0);
+    transition: all 1s;
+}
+.show
+{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transform: scale(1);
+    /* transition: all 2s; */
+}
+.Skills2
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.About{
+    justify-content: start;
+    position: relative;
+    top: 100px;
+}
+#About
+{
+    font-weight: bold;
+     word-spacing: 2px;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    margin-left: 50px;
+    
+}
+#AboutContent
+{
+    width: 1000px;
+    font-size: 50px;
+    margin-left: 50px;
+    color: white;
+}
+#Para
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+#Myimg
+{
+    margin-right: 400px;
+    position: relative;
+    bottom: -172px;
+}
+#ProjectsHead
+{
+    margin-top: 240px;
+    /* border: solid 4px  red; */
+    display: flex;
+    justify-content: center;
+}
+#PH
+{
+
+    box-shadow: 0px 2px 4px black;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    word-spacing: 2px;
+   letter-spacing: 10px;
+   width: 640px;
+   padding: 2px;
+   font-family: 'Playfair Display', serif;
+}
+#Projects
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* box-shadow: 0px 2px 4px black; */
+}
+#P1
+{
+    box-shadow: 5px 12px 50px white; 
+    border: solid 1px black;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+#P2
+
+{
+    box-shadow: 5px 12px 50px white; 
+    border: solid 1px black;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.APHEAD
+{
+    border: solid white 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#AP1
+{
+    font-size: 40px;
+    color: white;
+    width: 780px;
+}
+#AP2
+{
+    color: white;
+    font-size: 40px;
+    width: 780px;
+}
+
+  #ContactContainer {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    /* color: white; */
+  }
+  #CHEAD
+  {
+    color: black;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  input[type="text"]:focus,
+  textarea:focus {
+    border-color: #4CAF50;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+/* Second Page Ends here */

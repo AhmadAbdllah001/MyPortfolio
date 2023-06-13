@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kablammo&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- First Page Starts Here -->
+<section id="Firstpage">
+    <div class="FirstPage">
+        <!-- NavBar Starts Here -->
+        <nav class="NavBar">
+            <img src="ImageUsed/Logo (1).png" alt="Can't Load" height="100px" width="100px" id="Logo">
+            <ul>
+                <li>
+                    <a class="L1" href="#Firstpage">Home</a>
+                </li>
+                <li>
+                    <a class="L1" href="#AboutMe">About</a>
+                </li>
+                <li>
+                    <a class="L1" href="#ContactMe">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- NavBar Ends Here -->
+        <!-- My Intro Starts Here -->
+        <div class="Intro">
+            <div class="MyIntro" id="C">
+                <p class="hidden" id="Name">Hi! I Am Abdullah</p>
+                <p class="hidden" id="Occ">Front-end Developer</p>
+            </div>
+            <div class="hidden" id="Btn">
+                <a href="#MyProjects" class="L2">My Projects</a>
+                <a href="" class="L2">Hire Me</a>
+            </div>
+        </div>
+        <!-- My Intro Ends Here -->
+    </div>
+    <!-- First Page Ends Here -->
+</section>
+
+    <!-- Second Page Starts Here -->
+    <!-- My Skills Start Here -->
+    <div class="Skills">
+        <h1 class="hidden">
+            My Skills
+        </h1>
+        <div class="Skills2">
+            <img class="hidden" id="S1" src="ImageUsed/HTML5.png" alt="Can't Load" height="200px" width="200px">
+
+            <img class="hidden" id="S2" src="ImageUsed/CSS.png" alt="Can't Load" height="200px" width="150px">
+            <img class="hidden" id="S3" src="ImageUsed/JavaScript.png" alt="Can't Load" height="200px" width="350px">
+            <img class="hidden" id="S4" src="ImageUsed/Bootstrap.png" alt="Can't Load" height="150px" width="170px">
+        </div>
+        <!-- My Skills Ends Here -->
+       <section id="AboutMe">
+        <div class="About">
+            <p class="hidden" id="About">About Me</p>
+        </div>
+        <div id="Para">
+            <p class="hidden" id="AboutContent">
+                "Meet Abdullah, a curious and ambitious student fresh out of the school gates, eager to embark on a
+                captivating journey into the world of web development. Armed with a thirst for knowledge and a drive to
+                excel, Abdullah is ready to take on new challenges and acquire practical experience that will shape his
+                future. With an insatiable appetite for learning, he dives headfirst into the captivating realm of
+                coding, weaving together creativity and logic to craft mesmerizing digital experiences. Join Abdullah as
+                he unravels the mysteries of web development, one line of code at a time, and discover the boundless
+                possibilities that lie ahead. Let's embark on this exciting adventure together!"
+            </p>
+            <img id="Myimg" src="ImageUsed/WhatsApp_Image_2023-06-05_at_23.11.15-removebg.png" height="600px"
+                width="200px" alt="Can't Load" class="hidden">
+        </div>
+       </section>
+
+        <div class="hidden" id="ProjectsHead">
+            <p class="hidden" id="PH">My Projects</p>
+        </div>
+        <section id="MyProjects">
+            <div id="Projects">
+                <div id="HeadP1">
+                  <a href="https://ahmadabdllah001.github.io/iCoder/" id="PL1">
+                      <img src="ImageUsed/Screenshot 2023-06-10 002320.png" id="P1" alt="Can't Load" height="800px" width="800px">
+                  </a>
+                  <p id="AP1">
+                      "Explore our responsive coding blog, unlocking the world of programming and web development, one line of code at a time."
+                  </p>
+                </div>
+                <div id="HeadP2">
+                  <a href="https://ahmadabdllah001.github.io/AnyTime-Food/" id="PL2">
+                      <img src="ImageUsed/Screenshot 2023-06-10 001715.png" alt="Can't Load" height="800px" width="800px" id="P2">
+                    </a>
+                    <p id="AP2">
+                      "Indulge in a delectable journey with our enticing front-end project, where we bring the flavors of gourmet cuisine right to your doorstep."
+                    </p>
+                </div>
+          </div>
+        </section>
+     <section id="ContactMe">
+        <div id="ContactContainer" class="hidden">
+            <h1 id="CHEAD">Contact Me</h1>
+            <form action="/submit-contact" method="POST">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Your name.." required>
+        
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" placeholder="Your email.." required>
+        
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Write your message.." required></textarea>
+        
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+     </section>
+    
+    <!-- Contact Me Ends Here -->
+</div>
+</body>
+<script src="Portfolio.js"></script>
+
+</html>
